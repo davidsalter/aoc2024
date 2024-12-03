@@ -34,7 +34,7 @@ func Day1Part1() {
 }
 
 func Day1Part2() {
-	fmt.Println("Day 01 Part 1")
+	fmt.Println("Day 01 Part 2")
 	left := []int{}
 	right := []int{}
 	data := helpers.ReadFileAsStrings("inputs/day01.txt")

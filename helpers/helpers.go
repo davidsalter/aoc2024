@@ -28,3 +28,13 @@ func Abs(number int) int {
 	}
 	return -1 * number
 }
+
+func Remove(slice []string, index int) []string {
+	newSlice := make([]string, 0, len(slice))
+	for i, v := range slice {
+		if i != index {
+			newSlice = append(newSlice, v)
+		}
+	}
+	return newSlice
+}
